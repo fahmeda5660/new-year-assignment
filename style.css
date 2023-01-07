@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans';
+}
+ul {
+    list-style: none;
+}
+main{
+    max-width: 1040px;
+    margin: 0 auto;
+}
+section{
+    margin-top: 130px;
+}
+.btn-common{
+    font-weight: 600;
+    font-size: 20px;
+    background: #F15B22;
+    border: 0;
+    color: #fff;
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+.common-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-right: 122px;
+}
+.common-description{
+    color: #444343;
+}
+/* Banner part styles */
+.header{
+    background-image: url('images/banner/banner2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: unset;
+}
+.header .banner{
+    padding: 216px 230px 167px 0px;
+    text-align: right;
+}
+.header .banner .banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    color: #151414;
+    margin-left: 322px;
+}
+.header .banner .common-description{
+    margin-left: 527px;
+    padding-top: 24px;
+    padding-bottom: 32px;
+}
+.btn-common{
+    font-weight: 600;
+    font-size: 20px;
+    background: #F15B22;
+    border: 0;
+    color: #fff;
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+/* failure part styles */
+.failure .failure-content{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.failure .failure-content ul li i{
+    color: #16D887;
+}
+.failure .failure-content ul li {
+    color: #444343;
+}
+.failure .failure-content .failure-list{
+    margin-left: -42px;
+}
+.failure .failure-content .common-description{
+    margin-right: 67px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+/* Plan styles start */
+.plan .plan-content{
+    display: flex;
+    justify-content: center;
+    gap: 86px;
+    text-align: center;
+    margin-top: 50px;
+}
+.plan .plan-content img{
+    width: 35%;
+}
+.plan .common-title{
+    text-align: center;
+}
+/* Plan styles end */
+.plan .plan-title{
+    font-weight: 700;
+    font-size: 21px;
+    color: #151414;
+    margin: 20px 0px;
+}
+.plan .plan-description{
+    font-weight: 500;
+    font-size: 20px;
+    color: #737272;
+}
+/* Mindset styles  */
+.mindset{
+    background-image:
+    linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),
+    url('images/watch.png');
+    
+    border-radius: 8px;
+  }
+.mindset .common-title{
+    margin-bottom: 20px;
+    color: #fff;
+}
+.mindset .btn-common{
+    background: #fff;
+    color: #F15B22;
+}
+.mindset .mindset-content{
+    padding: 59px 405px 59px 64px;
+}
