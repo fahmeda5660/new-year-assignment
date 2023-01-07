@@ -5,7 +5,7 @@
 ul {
     list-style: none;
 }
-main{
+main,.footer .footer-content{
     max-width: 1040px;
     margin: 0 auto;
 }
@@ -136,6 +136,7 @@ section{
 }
 .footer .footer-content{
     display: flex;
+    gap: 350px;
     padding: 130px;
     color: #fff;
 }
@@ -147,7 +148,23 @@ section{
 }
 .footer .common-description{
     color: #fff;
+    margin: 30px 0px;
+    max-width: 485px;
+
 }
 .footer .content-title{
     color: #fff;
 }
+.footer .footer-content .btn-common {
+    display: block;
+    background: #fff;
+    color: #F15B22;
+}
+ input[type="email"]{
+    border-color: #fff;
+    color: #000;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+
