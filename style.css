@@ -38,17 +38,17 @@ section{
     background-position: unset;
 }
 .header .banner{
-    padding: 216px 230px 167px 0px;
+    padding: 216px 145px 167px 0px;
     text-align: right;
 }
 .header .banner .banner-title{
     font-weight: 700;
     font-size: 65px;
     color: #151414;
-    margin-left: 322px;
+    margin-left: 406px;;
 }
 .header .banner .common-description{
-    margin-left: 527px;
+    margin-left: 612px;
     padding-top: 24px;
     padding-bottom: 32px;
 }
@@ -125,4 +125,15 @@ section{
 }
 .mindset .mindset-content{
     padding: 59px 405px 59px 64px;
+}
+/* footer part styles */
+.footer{
+    background: #000;
+}
+.footer .footer-content{
+    display: flex;
+    padding: 130px;
+}
+.footer .content-title{
+    color: #fff;
 }
