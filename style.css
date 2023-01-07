@@ -134,6 +134,20 @@ section{
     display: flex;
     padding: 130px;
 }
+.footer .footer-content{
+    display: flex;
+    padding: 130px;
+    color: #fff;
+}
+.footer .content-title{
+    color: #fff;
+}
+.footer .common-title{
+    color: #fff;
+}
+.footer .common-description{
+    color: #fff;
+}
 .footer .content-title{
     color: #fff;
 }
